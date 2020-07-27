@@ -10,7 +10,7 @@
     ];
     var length = methods.length;
     var console = (window.console = window.console || {});
-    console.log = noop;
+    //console.log = noop;
     while (length--) {
         method = methods[length];
 
